@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100vw;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.sort-button {
+    background-color: transparent;
+    border: none;
+    color: #33bc38;
+    margin-right: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sort-button:hover {
+    color: #0056b3;
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-input {
+    width: 300px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.search-button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.logo-text {
+    margin-left: 10px;
+    color: rgb(66, 64, 64);
+}
